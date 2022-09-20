@@ -85,7 +85,7 @@ get_sud_code 入参和出参如下：<br>
 
 进入 `Pods/Development Pods/Core/BuildConfig.h` 文件，填写 LoginUrl
 
-当前你可以使用 https://common.rtc.volcvideo.com/rtc\_demo\_special/login 作为测试服务器域名，仅提供跑通测试服务，无法保障正式需求。
+当前你可以使用 https://common.rtc.volcvideo.com/rtc_demo_special/login 作为测试服务器域名，仅提供跑通测试服务，无法保障正式需求。
 
 ![](https://portal.volccdn.com/obj/volcfe/cloud-universal-doc/upload_27172dd3144eff55bf684dcddb0b296a.png)
 
