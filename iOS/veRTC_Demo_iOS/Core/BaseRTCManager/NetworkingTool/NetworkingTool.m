@@ -116,8 +116,8 @@
 + (NSString *)getDeviceId {
     NSString *deviceId = [[NSUserDefaults standardUserDefaults] objectForKey:@"deviceId_key"];
     if (!deviceId || ![deviceId isKindOfClass:[NSString class]] || deviceId.length <= 0) {
-        NSString *wisd = [self getWisd];
-        [[NSUserDefaults standardUserDefaults] setValue:wisd forKey:@"deviceId_key"];
+        deviceId = [self getWisd];
+        [[NSUserDefaults standardUserDefaults] setValue:deviceId forKey:@"deviceId_key"];
         [[NSUserDefaults standardUserDefaults] synchronize];
     }
     return deviceId;
